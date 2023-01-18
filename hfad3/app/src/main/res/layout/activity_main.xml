@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/message_to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/message_to"
+        android:textColorHint="@color/black"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:ems="10"
+        android:hint="@string/message_text"
+        android:textColorHint="@color/black"
+        android:inputType="textMultiLine"
+        android:minHeight="48dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/button_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send_button"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="end"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
