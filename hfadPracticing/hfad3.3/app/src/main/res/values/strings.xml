@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Scroll View example</string>
+    <string name="messageET">Message</string>
+    <string name="sendBT">Send</string>
+</resources>
